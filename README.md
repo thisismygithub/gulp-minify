@@ -30,7 +30,10 @@ gulp.task('compress', function() {
 ## Options
 - `ext`
     file extension
-
+	-`src` 
+	 file extension of source code.
+	-`min`
+	 file extension of minified source code.
 - `exclude`
 
     Will not minify files in the dirs.
